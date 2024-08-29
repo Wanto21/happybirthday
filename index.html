@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Ai</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Happy Birthday Ai</h1>
+    </header>
+    <main>
+        <p>Play dulu music nya yaa hehee</p>
+        <audio autoplay controls>
+            <source src="./Seventeen - Untuk Mencintaimu.mp3" type="audio/mpeg">
+        </audio>
+        <section class="story">
+            <h2>Cinta di Tempat Kerja: Kisah Kita</h2>
+            <p>Di sebuah kantor yang sibuk dan penuh dengan aktivitas, dua jiwa tak terduga menemukan satu sama lain. Semuanya dimulai ketika Ai, seorang pekerja radiasi yang berdedikasi, dan Wanto, seorang manusia yang biasa-biasa saja, bergabung dalam tim yang sama di sebuah perusahaan printer. Keduanya tidak menyangka bahwa tugas profesional akan menjadi awal dari sebuah kisah cinta yang penuh warna.</p>
+            <p>Ai dikenal dengan ketekunan dan sikap profesionalnya. Sementara Wanto, dengan senyum cerianya dan ide-ide segar, membawa energi positif ke dalam setiap proyek yang dia kerjakan. Ketika mereka pertama kali bertemu, ada sesuatu yang langsung terasa berbeda. Percakapan mereka yang awalnya hanya tentang pekerjaan mulai berkembang menjadi diskusi yang lebih dalam, berbagi pandangan dan momen ringan yang menyenangkan.</p>
+            <p>Seiring berjalannya waktu, Ai dan Wanto mulai lebih sering bekerja sama, dan keakraban mereka tumbuh. Mereka mulai menghabiskan waktu bersama di luar jam kerja. Apa yang dimulai sebagai hubungan profesional perlahan-lahan berubah menjadi persahabatan yang kuat, dan akhirnya, cinta yang mendalam.</p>
+            <p>Mereka menikmati setiap momen bersama, seperti merencanakan liburan singkat untuk mengisi ulang energi. Dalam perjalanan ini, mereka belajar banyak tentang satu sama lain dan tumbuh sebagai pasangan yang saling mendukung.</p>
+        </section>
+        <section class="surprise">
+            <h2>Kejutan Ulang Tahun</h2>
+            <p>Hari ini, saat Ai merayakan ulang tahunnya, Wanto ingin membuat hari ini benar-benar istimewa. Dia merencanakan sebuah kejutan yang penuh dengan makna, menyatukan elemen-elemen dari perjalanan cinta mereka. Wanto membuat sebuah website pertamanya yang berisikan foto-foto mereka dari berbagai momen spesial hasil dari belajar selama beberapa bulan terakhir.</p>
+            <div class="gallery">
+                <h3>Galeri Kenangan</h3>
+                <img src="./IMG_0544.jpg" alt="Kenangan 1" class="thumbnail" onclick="openPopup('foto1.jpg')">
+                <img src="./IMG_4824.JPG" alt="Kenangan 2" class="thumbnail" onclick="openPopup('foto2.jpg')">
+                <img src="./IMG_6041.JPG" alt="Kenangan 3" class="thumbnail" onclick="openPopup('foto3.jpg')">
+                <!-- Tambahkan gambar lainnya sesuai kebutuhan -->
+            </div>
+        </section>
+        <section class="letter">
+            <h2>Surat Digital dari Wanto</h2>
+            <p>Ketika Ai membuka album dan membaca surat itu, dia merasa sangat tersentuh. Dia tahu bahwa cinta mereka telah berkembang menjadi sesuatu yang benar-benar istimewa, dimulai dari tempat kerja dan tumbuh menjadi sesuatu yang lebih besar dari yang mereka bayangkan.</p>
+            <blockquote>
+                <p>Selamat ulang tahun, Ai. Semoga setiap hari kita bersama selalu penuh dengan kebahagiaan dan cinta yang tak terhingga.</p>
+            </blockquote>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Cinta di Tempat Kerja</p>
+    </footer>
+
+    <!-- Pop-up untuk gambar -->
+    <div id="popup" class="popup" onclick="closePopup()">
+        <span class="close">&times;</span>
+        <img class="popup-content" id="popup-img">
+        <div id="caption"></div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
